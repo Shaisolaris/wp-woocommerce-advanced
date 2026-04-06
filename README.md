@@ -1,5 +1,21 @@
 # wp-woocommerce-advanced
 
+## Quick Start
+
+1. Requires WooCommerce 8.0+
+2. Copy to `wp-content/plugins/wp-woocommerce-advanced/`
+3. Activate in WordPress admin
+
+### After Activation
+
+- **Payment Gateway:** WooCommerce → Settings → Payments → Custom Payment → Enable
+- **Shipping Method:** WooCommerce → Settings → Shipping → [Zone] → Add Method → Custom Shipping
+- **Checkout Fields:** Automatically added (delivery date, instructions, gift wrap, VAT number)
+- **Order Status:** "Awaiting Pickup" status available in order management
+
+Test mode enabled by default — toggle to live in gateway settings.
+
+
 ![CI](https://github.com/Shaisolaris/wp-woocommerce-advanced/actions/workflows/ci.yml/badge.svg)
 
 WooCommerce extensions plugin with a custom payment gateway (card fields, test/live modes, refunds, tokenization), weight-based shipping method (zone support, free shipping threshold, max weight), custom checkout fields (delivery date, instructions, gift wrap with auto-applied fee, VAT number), custom order status, and admin order column customization.
