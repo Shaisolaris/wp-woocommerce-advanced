@@ -1,5 +1,7 @@
 # wp-woocommerce-advanced
 
+![CI](https://github.com/Shaisolaris/wp-woocommerce-advanced/actions/workflows/ci.yml/badge.svg)
+
 WooCommerce extensions plugin with a custom payment gateway (card fields, test/live modes, refunds, tokenization), weight-based shipping method (zone support, free shipping threshold, max weight), custom checkout fields (delivery date, instructions, gift wrap with auto-applied fee, VAT number), custom order status, and admin order column customization.
 
 ## Stack
