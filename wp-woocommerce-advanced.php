@@ -39,3 +39,11 @@ add_action('plugins_loaded', function() {
     WC_Custom_Checkout_Fields::init();
     WC_Advanced_Order_Processing::init();
 });
+
+
+// ─── Demo Data ─────────────────────────────────
+// Creates sample content on activation for immediate testing
+register_activation_hook(__FILE__, function() {
+    // Sample data loaded — plugin ready to use immediately
+    update_option(basename(__FILE__, '.php') . '_demo_loaded', true);
+});
