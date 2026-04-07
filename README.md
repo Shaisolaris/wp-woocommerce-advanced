@@ -1,5 +1,8 @@
 # wp-woocommerce-advanced
 
+
+WooCommerce extensions plugin with custom payment gateway, weight-based shipping, checkout fields (delivery date, gift wrap, VAT), and custom order status.
+
 ## Quick Start
 
 1. Requires WooCommerce 8.0+
